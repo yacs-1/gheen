@@ -1,5 +1,5 @@
 body{
-  background-color:pink;
+  background-color:#FFB5C0;
   color:black;
   text-align:left;
   font-family:geist;
@@ -10,8 +10,36 @@ body{
   font-family:cursive;
   text-align: center;
   font-size:300%;
-  text-shadow:#D2240A 2px 2px;
+  text-shadow:#822222 3px 2px;
 }
 h2.heading{
   font-size:200%;
+}
+.bordered{
+  border-style:solid;
+  border-color:#E54662;
+  border-width: 3px;
+  padding:5px;
+  border-radius:60px;
+  margin:7px;
+  background-color:#E67267;
+  color:#111112;
+}
+a{
+  text-decoration:none;
+  font-weight:800;
+  color:pink;
+}
+a:hover, a:visited {
+  color:#E31E5C;
+}
+hr{
+  height:4px;
+  border:0px;
+  background-color:#E31E5C;
+}
+#footer{
+  color:black;
+  font-size:120%;
+  text-align:center;
 }
