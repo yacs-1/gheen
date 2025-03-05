@@ -3,6 +3,14 @@
   color:black;
   text-align:left;
   font-family:geist;}
+#bg{
+ width:100vw;
+ height:100vh;
+ z-index:-999;
+ position:fixed;
+ top:0px;
+ left:0px;
+}
 a{
   text-decoration:none;
   font-weight:800;
@@ -19,3 +27,4 @@ hr{
 h2{
   color:grey; 
 }
+
