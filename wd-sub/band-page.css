@@ -1,8 +1,10 @@
 body{
   margin:0px;
+  font-family:;
 }
-#content,#album,#info{
+#content, #album, #info{
   float:left;
+  background-color:pink;
 }
 #content{
   border: solid 2px pink;
@@ -15,7 +17,7 @@ body{
 }
 #info{
   border: solid 2px green;
-  max-width:20%;
+  max-width:18%;
 }
 #player button{
   
@@ -30,5 +32,31 @@ height:1em;
 #banner{
   max-width:100w;
   height:100px;
+}
+#tracklist{
+  list-style-type:none;
+}
+.track-li:{
+  font-size: 125%;
+  font-style:italic
+}
+.track-player::-webkit-media-controls-panel {
+  background-color: rgba(255, 255, 255, 1);
+}
+.track-player{
+  height: 3em;
+}
+#album-cover{
+  width:100%;
+  
+}
+#info img{
+  max-width: 100%;
+  margin:auto;
+  display:block;
+}
+a{
+  color: #FC6C85 ;
+  text-decoration:none;
 }
 
