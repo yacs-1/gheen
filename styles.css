@@ -1,5 +1,5 @@
  body{
-  background-color:#FFB5C0;
+  background-color:#FFB5A0;
   color:black;
   text-align:left;
   font-family:geist;}
@@ -17,7 +17,7 @@ a{
   color:#AA1434;
 }
 a:hover, a:visited {
-  color:#EF005C;
+  color:grey;
 }
 hr{
   height:4px;
@@ -27,4 +27,36 @@ hr{
 h2{
   color:grey; 
 }
+#nav-list {
+  display:flex;
+  list-style-type:none;
+  justify-content:center;
+  background-color:pink;
+  position:center;
+  
+  
+}
+#nav-list > li{
+flex-grow: 1;
+  display:inline-block;
+  width:15%;
+}
 
+#nav-list ul {
+  display:none;
+  background-color:#D3D3D3;
+}
+#nav-list li:hover ul{
+  display: block;
+}
+#nav-list li ul{
+  list-style-type: none;
+  padding: 0px;
+  position:relative;
+ 
+
+}
+#nav-list li:hover{
+  background-color:#AA336A;
+  color: pink;
+}
