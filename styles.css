@@ -28,18 +28,22 @@ h2{
   color:grey; 
 }
 #nav-list {
+  padding: 0px;
   display:flex;
   list-style-type:none;
   justify-content:center;
   background-color:pink;
-  position:center;
+  position:relative;
+  align-content:center;
   
   
 }
 #nav-list > li{
 flex-grow: 1;
-  display:inline-block;
-  width:15%;
+  display:block;
+  position:relative;
+  text-align:center;
+  margin:auto;
 }
 
 #nav-list ul {
@@ -52,11 +56,16 @@ flex-grow: 1;
 #nav-list li ul{
   list-style-type: none;
   padding: 0px;
-  position:relative;
+  position:absolute;
+  width:100%;
  
 
 }
 #nav-list li:hover{
   background-color:#AA336A;
   color: pink;
+}
+#nav-list li a{
+  display:inline-block;
+  width:100%;
 }
