@@ -1,1 +1,16 @@
+body{
+  margin:0;
+  padding:0;
+  color: #FF007F;
+}
+.square {
+  float:left;
+  border: solid pink 3px;
+  width: 30vh;
+  font-size: xxx-large;
+  text-align:center;
+  padding-top:5%;
+  padding-bottom:5%;
+  
+}
 
