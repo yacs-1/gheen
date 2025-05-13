@@ -13,4 +13,24 @@ body{
   padding-bottom:5%;
   
 }
+#winner {
+  display:none;
+   position:fixed;
+  top: 0px;
+  left:0%;
+  right:0%;
+  bottom:0px;
+  text-align: center;
+  background-color:#FF69B4;
+  font-size: xx-large;
+  padding: 4em;
+ 
+}
 
+#winner div {
+ margin:auto;
+  text-align: center;
+  color:pink;
+  font-size: xx-large;
+  padding: 2em;
+}
