@@ -6,7 +6,7 @@ body{
 
 .square {
   float: left;
-  border: solid pink 3px;
+  border: solid white 2px;
   width: 30vw;
   font-size: xxx-large;
   text-align: center;
