@@ -1,5 +1,5 @@
 const UNCHECK_ICON = '<svg onclick="crossOut(this)" viewBox="0 0 448 512" width="1em" title="square-uncheck"><path d="M64 32C28.7 32 0 60.7 0 96L0 416c0 35.3 28.7 64 64 64l320 0c35.3 0 64-28.7 64-64l0-320c0-35.3-28.7-64-64-64L64 32z" /></svg>';
-const CHECK_ICON ='<svg style="fill:pink" onclick="unmarkItem(this)" viewBox="0 0 448 512" width="1em" title="square-check"><path d="M64 32C28.7 32 0 60.7 0 96L0 416c0 35.3 28.7 64 64 64l320 0c35.3 0 64-28.7 64-64l0-320c0-35.3-28.7-64-64-64L64 32zM337 209L209 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L303 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z" /></svg>';
+const CHECK_ICON ='<svg style="fill:purple" onclick="unmarkItem(this)" viewBox="0 0 448 512" width="1em" title="square-check"><path d="M64 32C28.7 32 0 60.7 0 96L0 416c0 35.3 28.7 64 64 64l320 0c35.3 0 64-28.7 64-64l0-320c0-35.3-28.7-64-64-64L64 32zM337 209L209 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L303 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z" /></svg>';
 
 function addNewItem() {
     let newItem;
@@ -30,8 +30,8 @@ function clearList() {
 
 function crossOut(_icon) {
   let thisItem = _icon.parentElement;
-  thisItem.style.textDecoration = "wavy 1px line-through";
-   thisItem.style.color = "pink";
+  thisItem.style.textDecoration = "wavy 2px line-through";
+   thisItem.style.color = "purple";
 thisItem.innerHTML = CHECK_ICON + "  " + thisItem.innerText;
   
 }
