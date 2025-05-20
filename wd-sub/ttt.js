@@ -1,4 +1,4 @@
- let isXTurn = true;
+let isXTurn = true;
 const squareArr = document.querySelectorAll(".square");
 
 for (const _element of squareArr) {
