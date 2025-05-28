@@ -7,6 +7,15 @@
    <body style= "font-family: cursive">
     <div id="gheader"></div>
     <script src="/gheen/global-header.js"></script>
-       <h2 class="header">welcome to my site</h2>
+       <h2 class="heading">welcome<span id="userspan"></span> to Laura's site </h2>
+   </div>
+    <script>
+     let urlParams = new URLSearchParams(window.location.search);
+     if (urlParams.has("variable1")) {
+  let username = urlParams.get("variable1");
+      let userspan = document.getElementById("userspan");
+      userspan.innerText = ", " + username + ", "; 
+     }
+    </script>
    </body>
 </html>
